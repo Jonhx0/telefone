@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segredo?</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>O Telefone</h1>
+    <input type="tel" id="textoTel" placeholder="Digite seu telefone">
+    <section class="teclado">
+        <input type="button" value="1">
+        <input type="button" value="2">
+        <input type="button" value="3">
+        <input type="button" value="4">
+        <input type="button" value="5">
+        <input type="button" value="6">
+        <input type="button" value="7">
+        <input type="button" value="8">
+        <input type="button" value="9">
+        <input type="button" value="*">
+        <input type="button" value="0">
+        <input type="button" value="#">
+        <input type="button" id="apagarNumero" value="Apagar">
+        <input id="segredo" type="button" value="?">
+        <input type="button" id="limparPH" value="Limpar"> 
+    </section>
+    <div id="mensagem">🔺+ ⚽ + 🎱</div>
+        <audio id ="som_tecla_1" src="./sounds/som1.mp3"></audio>
+        <audio id="som_tecla_2"  src="./sounds/som2.mp3"></audio>
+        <audio id="som_tecla_3"  src="./sounds/som3.mp3"></audio>
+        <img id="imagemSecreta" src="./assets/gnome.png" style="display: none;" alt="Gnome">
+        <audio id="audioSecreto" src="./sounds/Gnome.mp3"></audio>
+<script src="./js/main.js"></script>
+</body>
+</html>
